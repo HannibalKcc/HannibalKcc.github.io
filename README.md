@@ -1,3 +1,7 @@
+# 注意
+原本使用 `Travis CI` 但是由于一些环境问题没有成功配置，故目前改为使用 issue 做记录。有空会弄好这东东的。
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/HannibalKcc/HannibalKcc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
