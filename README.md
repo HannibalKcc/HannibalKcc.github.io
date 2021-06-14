@@ -1,41 +1,16 @@
-# 注意
-原本使用 `Travis CI` 但是由于一些环境问题没有成功配置，故目前改为使用 issue 做记录。有空会弄好这东东的。
+# Blog
+[Blog](https://hannibalkcc.github.io)
 
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/HannibalKcc/HannibalKcc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## start
+```shell
+bundle exec jekyll serve
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 新增文章的几个规则
+1. 放在 `_posts` 文件夹下
+2. 文件名格式为 `yyyy-mm-dd-title.md`
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HannibalKcc/HannibalKcc.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 待完善
+- [ ] issue 自动导入
+  nodejs 脚本请求接口，获取对应的 `<textarea>` 的内容
+  
